@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A3")
+	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -79,89 +79,5 @@
 		)
 	)
 	(net 0 "")
-	(gr_line
-		(start 377.307553 49.004446)
-		(end 377.303553 224.496446)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "15226cc6-ffa6-4efe-9e30-c125bc952cab")
-	)
-	(gr_arc
-		(start 43.603553 49.003553)
-		(mid 43.75 48.65)
-		(end 44.103553 48.503553)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "1e68e30a-8ed9-4ece-b1e2-79cf32441275")
-	)
-	(gr_arc
-		(start 376.803553 48.503552)
-		(mid 377.157106 48.649999)
-		(end 377.303553 49.003552)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "49aefdaf-6c7d-47cd-be6d-c572948e19d9")
-	)
-	(gr_arc
-		(start 44.103553 224.996447)
-		(mid 43.75 224.85)
-		(end 43.603553 224.496447)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "61daff72-ac2a-4efb-b29b-a9cd86cd7b00")
-	)
-	(gr_line
-		(start 44.1036 48.503553)
-		(end 376.8036 48.503553)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "623218f5-230f-48e9-bdb7-2588c97fc7fb")
-	)
-	(gr_line
-		(start 43.599553 224.495553)
-		(end 43.603553 49.003553)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "6c1b0cc0-1fac-4931-a75e-682535742589")
-	)
-	(gr_line
-		(start 44.103553 224.996446)
-		(end 376.803553 224.996446)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9747cdc3-ad29-4f8b-84ae-fa6bf8673140")
-	)
-	(gr_arc
-		(start 377.303553 224.496446)
-		(mid 377.157106 224.849999)
-		(end 376.803553 224.996446)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "fcb22a69-2731-42d1-8b12-12d794d2a6b2")
-	)
 	(embedded_fonts no)
 )
