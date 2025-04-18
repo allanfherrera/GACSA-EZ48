@@ -225,7 +225,72 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1244600|762000|00000000-0000-0000-0000-0000637421a8|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|1422400|1282700|b026e912-bba8-4b42-9a5c-7fe0c9dd64c9|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|1816100|1282700|dcf710fe-fff6-42e0-8319-ee88006596a7|00000000-0000-0000-0000-000000000000|||",
+        "TODO: Create EZ-48 Symbol Library "
+      ],
+      [
+        "lib_symbol_issues|1854200|406400|d3c584a5-c43e-407c-b9c2-ea6f2249e010|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|2209800|1282700|50bfc7c5-4be4-49d3-8951-3dfdd2a2e9f9|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|431800|609600|15198319-8959-4ae0-a78a-0f459c89f5b1|00000000-0000-0000-0000-000000000000|||",
+        "TODO: Create EZ-48 Symbol Library "
+      ],
+      [
+        "lib_symbol_issues|431800|647700|15198319-8959-4ae0-a78a-0f459c89f5b1|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|495300|622300|745d867d-6bd4-4bc4-90ad-1be391e8672d|00000000-0000-0000-0000-000000000000|||",
+        "TODO: Create EZ-48 Symbol Library "
+      ],
+      [
+        "multiple_net_names|279400|1727200|2f1fbc4e-6083-4783-9e83-61fff18466b2|02167604-0cc4-4765-abe9-e1b16db4f398|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4",
+        ""
+      ],
+      [
+        "multiple_net_names|279400|1727200|8c963e68-7c44-4ee3-8e38-3bb27a44c3e5|02167604-0cc4-4765-abe9-e1b16db4f398|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4",
+        ""
+      ],
+      [
+        "multiple_net_names|355600|1689100|9e9dbc13-436c-48e1-b6fd-88e6270a52e2|2a9edd50-4786-4d7d-bd84-4be7ea349432|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4",
+        ""
+      ],
+      [
+        "multiple_net_names|533400|1701800|e1479909-eb34-4253-b648-d8d6a919057c|0ea9777d-1c97-4e17-94e3-b9cba8c752ed|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4",
+        ""
+      ],
+      [
+        "multiple_net_names|584200|1727200|0b797ab5-1f74-44e1-a781-46d80e528564|bdc3aa9b-57c0-44ee-a468-d7a57a9a4960|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4",
+        ""
+      ],
+      [
+        "pin_to_pin|1638300|1333500|58e32525-ed95-46fb-b4f5-3563e7fe17b8|6b11d576-8306-4291-83f4-2de7c05cb208|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4",
+        "TODO: Create EZ-48 Symbol Library "
+      ],
+      [
+        "pin_to_pin|2032000|1333500|07565789-2e86-4b4e-ba5a-6dc891ba0c5c|6b11d576-8306-4291-83f4-2de7c05cb208|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4",
+        ""
+      ],
+      [
+        "pin_to_pin|2425700|1333500|790d8027-1f45-484d-a55e-0f1b52421c02|6b11d576-8306-4291-83f4-2de7c05cb208|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4|/6ec07b00-0da6-4d98-bcbb-1da013927dc4",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -418,7 +483,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -611,6 +676,22 @@
     [
       "6ec07b00-0da6-4d98-bcbb-1da013927dc4",
       "Root"
+    ],
+    [
+      "9b46f9e8-9143-40aa-9115-e29e75697d9b",
+      "Video Interface"
+    ],
+    [
+      "643b4d73-cffb-4750-a650-ab32fbe1efbc",
+      "Peripherals and Sound"
+    ],
+    [
+      "85684cb0-3e64-465c-add3-5db707ddeb29",
+      "Expansion Slots"
+    ],
+    [
+      "d0231656-e504-4910-a84b-c70b8e85d6fa",
+      "Dynamic RAM"
     ]
   ],
   "text_variables": {}
